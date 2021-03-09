@@ -1,11 +1,10 @@
 const spinner = () => {
-  const spinChars = ["| ", "/ ", "— ", "\\ "];
-  let delay = 500;
+  const spinChars = ["| ", "/ ", "— ", "\\ ", "| ", "/ ", "— ", "\\ ", "| ", "\n"];
+  let delay = 0;
   for (const char of spinChars) { 
     setTimeout( () => process.stdout.write("\r" + char), delay)
-    delay += 500;
+    delay += 200;
   }
-  process.stdout.write("\n");
 };
 
 spinner();

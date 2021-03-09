@@ -7,4 +7,7 @@ const spinner = () => {
   }
 };
 
-spinner();
+//Test code
+//spinner();
+
+module.exports = spinner;

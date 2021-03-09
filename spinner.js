@@ -8,4 +8,5 @@ const spinner = () => {
   process.stdout.write("\n");
 };
 
-spinner();
+//spinner();
+
